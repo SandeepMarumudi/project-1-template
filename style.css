@@ -1,0 +1,385 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    height: 100px;
+    background-color: #fff;
+    
+}
+.nav-list-container{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+.image-container{
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+.nav-list-container li{
+    width: 100px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-list-container li:hover{
+    background-color: crimson;
+    color: #fff;
+}
+.Banner-first-row,.Banner-second-row,.Banner-third-row{
+    width: 109%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banner-container{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    outline: none;
+    border: none;
+    font-size: 24px;
+}
+/* .Banner-first-row img{
+    width:25px;
+} */
+.Banner-first-row div{
+    /* margin-right: 10px; */
+    width:32%;
+    padding: 5px;
+    display: flex;
+    align-self: center;
+    border: 1px solid black;
+}
+.banner-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./Assets/bg-img-1.jpg);
+    height: auto;
+    padding: 100px 0;
+}
+#adult,.check-availability-div button{
+    font-size: 24px;
+    padding: 5px;
+}
+#adult{
+    outline: none;
+    border: none;
+    width: 80%;
+
+}
+#children{
+    outline: none;
+    border: none;
+    width: 80%;
+    font-size: 24px;
+    padding: 5px;
+    
+}
+#Room{
+    outline: none;
+    border: none;
+    width: 80%;
+    font-size: 24px;
+    padding: 5px;
+}
+.check-availability-div button{
+    background-color: crimson;
+    color: #fff;
+    border: none;
+    padding: 6px 20px;
+}
+.check-availability-div{
+    background-color: crimson;
+}
+.banner-container div{
+    margin-bottom: 10px;
+}
+/* .Banner-second-row img{
+    width: 25px;
+} */
+ .Banner-second-row{
+    display: flex;
+    justify-content: space-between;
+ }
+.Banner-second-row div{
+    border: 1px solid black;
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-container{
+    background-color: #fff;
+    padding: 50px;
+}
+.red_block{
+    height:270px;
+    background-color: crimson;
+    text-align: center;
+    color: #fff;
+    clip-path: polygon(
+        0 calc(100% - 100%),
+        100% calc(100% - 100%),
+        100% calc(100% - 50%) ,
+        calc(100% - 50%) 63%,
+        0% calc(100% - 50%)
+    );    
+}
+/* .red_block h1{
+    padding:10px 0;
+} */
+.red_block p{
+    padding-top: 20px;
+    padding-bottom:20px ;
+}
+/* .red_block button{
+    padding: 5px;
+} */
+.threeboxes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:85%;
+    height: 300px;
+    justify-content: space-between;   
+}
+.boxes_container{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+}
+.continue{
+    color: crimson;
+}
+.banner-section{
+    padding-top: 100px;
+}
+::placeholder{
+    padding-left: 20px;
+}
+.places{
+    display: flex;
+    flex-direction: row;  
+    height:auto; 
+    background-color:gainsboro;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 100px;
+    
+    
+}
+.place1{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    height: 465px;
+    margin: 25px;
+    width:290px;
+    background-color: #fff;
+
+}
+.place1 div{
+    margin: 14px;
+    text-align: center;
+}
+.countries{
+    display: flex;
+    flex-direction: column;
+    height: 465px;
+    background-color:white;
+    width:290px;
+
+}
+.countries div{
+    margin: 5px;
+    background-color:gainsboro ;
+
+}
+.countries p{
+    background-color: crimson;
+    padding: 20px;
+}
+.blackimg{
+height: 250px;
+}
+.blackimg img{
+    width: 100%;
+    height: 100%;
+}
+.skull{
+    background-image: url(./Assets/bg-img-2.jpg);
+    height: 600px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+
+    
+}
+.inskull1{
+    width: 35%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 3px solid;
+    border-color:whitesmoke;
+
+}
+.inskullbox1{
+    display: flex;
+    font-size: x-small;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+.inskull_text1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.inskullbox1 img{
+    margin-right: 20px;
+}
+.inskullbox1 h6{
+    font-size: x-small;
+    color: crimson;
+}
+.address{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-image: url(./Assets/bg-img-3.jpg);
+    height: 800px;
+    background-size: cover;
+
+} 
+.form1{
+    width: 40%;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    /* width:30%; */
+    height: 500px;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+    
+}
+form input{
+    background-color: gainsboro;
+    padding: 15px;
+}
+form button{
+    background-color:crimson;
+    height:50px;
+    border: none;
+}
+textarea{
+    background-color: gainsboro;
+    border: none;
+    padding: 15px;
+    height: 170px;
+
+}
+iframe{
+    width:30%;
+    height: 400px;
+}
+.footer{
+    background-color: black;
+    color: white;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+
+
+@media (max-width:1024px){
+    .Banner-first-row,.Banner-second-row,.Banner-third-row{
+        width: 109%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Banner-first-row div,.Banner-second-row div  {
+        width: 93%;
+    }
+    .Banner-third-row{
+        text-align: center;
+    }
+    .threeboxes{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        height: 920px;
+        
+    }
+    .box{
+        padding: 20px;
+    }
+    .places{
+        flex-direction: column;
+    }
+    .blackimg img{
+        height: 100px;
+    }
+    .skull{
+        flex-direction: column;
+        height: 1000px;
+    }
+    .inskullbox1{
+        flex-direction: column;
+        text-align: center;
+    }
+    .inskull1{
+        border: none;
+    }
+    .address{
+        flex-direction: column;
+        height: 1100px;
+        
+    }
+    iframe{
+        width:100%;
+    }
+    .form1{
+        width: 100%;
+        
+    }
+
+    
+    
+}
+
